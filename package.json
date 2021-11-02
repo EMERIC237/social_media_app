@@ -1,0 +1,28 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMERIC237/social_media_app.git"
+  },
+  "author": "Emeric237",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMERIC237/social_media_app/issues"
+  },
+  "homepage": "https://github.com/EMERIC237/social_media_app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
